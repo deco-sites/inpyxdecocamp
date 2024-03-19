@@ -23,7 +23,7 @@ export interface Props {
 const PLACEMENT = {
   left: "flex-col lg:flex-row-reverse",
   right: "flex-col lg:flex-row",
-  center: "flex-col lg:flex-row",
+  center: "flex-col lg:flex-row-center",
 };
 
 const DEFAULT_IMAGE =
