@@ -9,7 +9,7 @@ export interface Props {
    */
   description: string;
   image: ImageWidget;
-  placement: "left" | "right";
+  placement: "left" | "right" | "center";
   cta?: {
     href?: string;
     text?: string;
@@ -23,6 +23,7 @@ export interface Props {
 const PLACEMENT = {
   left: "flex-col lg:flex-row-reverse",
   right: "flex-col lg:flex-row",
+  center: "flex-col lg:flex-row",
 };
 
 const DEFAULT_IMAGE =
