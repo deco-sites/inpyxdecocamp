@@ -2,8 +2,10 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
-import * as $$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$$$$$$$$$0 from "./apps/AppContext.ts";
+import * as $$$$$$$$$$$1 from "./apps/decohub.ts";
+import * as $$$$$$$$$$$2 from "./apps/site.ts";
+import * as $$$$$$$$$$$3 from "./apps/weather.ts";
 import * as $$$2 from "./loaders/availableIcons.ts";
 import * as $$$3 from "./loaders/icons.ts";
 import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
@@ -55,7 +57,8 @@ import * as $$$$$$43 from "./sections/Product/ShelfWithImage.tsx";
 import * as $$$$$$44 from "./sections/Product/Wishlist.tsx";
 import * as $$$$$$45 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$46 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$47 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$47 from "./sections/Temperatura.tsx";
+import * as $$$$$$48 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
@@ -118,11 +121,14 @@ const manifest = {
     "deco-sites/inpyxdecocamp/sections/Product/Wishlist.tsx": $$$$$$44,
     "deco-sites/inpyxdecocamp/sections/Social/InstagramPosts.tsx": $$$$$$45,
     "deco-sites/inpyxdecocamp/sections/Social/WhatsApp.tsx": $$$$$$46,
-    "deco-sites/inpyxdecocamp/sections/Theme/Theme.tsx": $$$$$$47,
+    "deco-sites/inpyxdecocamp/sections/Temperatura.tsx": $$$$$$47,
+    "deco-sites/inpyxdecocamp/sections/Theme/Theme.tsx": $$$$$$48,
   },
   "apps": {
-    "deco-sites/inpyxdecocamp/apps/decohub.ts": $$$$$$$$$$$0,
-    "deco-sites/inpyxdecocamp/apps/site.ts": $$$$$$$$$$$1,
+    "deco-sites/inpyxdecocamp/apps/AppContext.ts": $$$$$$$$$$$0,
+    "deco-sites/inpyxdecocamp/apps/decohub.ts": $$$$$$$$$$$1,
+    "deco-sites/inpyxdecocamp/apps/site.ts": $$$$$$$$$$$2,
+    "deco-sites/inpyxdecocamp/apps/weather.ts": $$$$$$$$$$$3,
   },
   "name": "deco-sites/inpyxdecocamp",
   "baseUrl": import.meta.url,

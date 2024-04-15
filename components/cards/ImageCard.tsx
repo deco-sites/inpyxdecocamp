@@ -39,7 +39,7 @@ function CardText({
       }`}
     >
       {tag && (
-        <div class="text-xs bg-primary text-primary-content py-1 px-2 rounded mb-2">
+        <div class="text-xs bg-primary text-primary-content py-1 px-2 rounded mb-2 hidden">
           {tag}
         </div>
       )}
